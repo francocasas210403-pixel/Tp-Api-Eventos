@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const ModelEvento = require("../models/eventoModel");
+const ModelEvento = require("../models/eventoModels");
 
 // Endpoint auxiliar: Crear un nuevo evento (necesario para cargar datos de prueba)
 router.post("/eventos", async (req, res) => {
