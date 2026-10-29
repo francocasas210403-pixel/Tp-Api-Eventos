@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:3000/eventos/disponibles
+description: ""
+url: http://localhost:3000/eventos/disponibles
+method: GET
+order: 1000
